@@ -27,7 +27,7 @@ html, body {
 .jimu-primary-loading,
 .jimu-primary-loading:before,
 .jimu-primary-loading:after {
-    background: rgb(0, 125, 100);
+    background: #027caa;
     animation: loading-keys-app-loading 0.8s infinite ease-in-out;
     width: 13.6px; height: 32px;
     position: absolute;
