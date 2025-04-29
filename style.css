@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: 'Poppins', 'Raleway', sans-serif;
+    font-family: 'Raleway', 'Poppins', sans-serif;
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
