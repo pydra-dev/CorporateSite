@@ -97,7 +97,7 @@ html, body {
 
 .nav, .topnav {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./img/unsplash-compressed.jpg");
     animation: slidein 1s ease-out;
     position: sticky;
     top: 0;
