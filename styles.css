@@ -215,6 +215,7 @@ body {
     flex-direction: column;
     text-align: center;
     border-radius: 100%; 
+}
 
 form {
     background-color: rgba(0, 125, 100, 0.75);
