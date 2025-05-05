@@ -1,114 +1,132 @@
+<!-- Site By The Pydra Team, Images Licensed to Unsplash, some elements from FOSS Sources, DO NOT STEAL -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Pydra Project - Providing compute power to the next generation.</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <title>The Pydra Project | Corporate</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta property="og:image" content="https://pydra.dev/favicon.png">
-    <meta name="title" content="The Pydra Project">
-    <meta name="description" content="The Pydra Project's corporate site.">
-    <meta name="keywords" content="pydra, microservers, raspberry pi servers, student computing, nonprofit tech, pydra project, pydra.dev">
+    <meta property="og:image" content="https://corporate.pydra.dev/favicon.png">
+    <meta name="title" content="The Pydra Project | Corporate">
+    <meta name="description" content="Pydra | Hosting for all.">
+    <meta name="keywords" content="pydra, the pydra project, free vps, server hosting, free server, server, server for students, free for dev, pydra corporate, microservers, raspberry pi servers, student computing, nonprofit tech, pydra project, pydra.dev">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="language" content="English">
     <meta name="author" content="The Pydra Project Team">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
     <script src="https://kit.fontawesome.com/9fa80674d6.js" crossorigin="anonymous"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-66LL8KS9Z4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-66LL8KS9Z4');
+    </script>
 </head>
 <body id="home">
 <button onclick="topFunction()" id="myBtn" title="Go to top">
     <i class="fa-solid fa-angle-up"></i>
 </button>
-
 <!-- Loader -->
 <div id="loader-wrapper">
     <div class="loader">
         <div class="justify-content-center jimu-primary-loading"></div>
     </div>
 </div>
-
+<!-- Navbar Start -->
 <div class="topnav" id="myTopnav">
     <div class="imgcontainer">
         <div class="logo-div">
             <a href="#home" id="logo">
-                <img src="./img/logo.png" width="200px" alt="logo">
+                <img class="logo" src="./img/logo.png" alt="logo">
             </a>
         </div>
     </div>
     <div class="links">
         <a href="#home">Home</a>
-        <a href="#projects">Our Vision</a>
+        <p>|</p>
+        <a href="#projects">Who Are We?</a>
+        <p>|</p>
+        <a href="#about">What's A Microserver?</a>
+        <p>|</p>
         <a href="#contact">Contact</a>
     </div>
 </div>
-
+<!-- Hero Image -->
 <div class="hero-image">
-    <div style="font-size:50px">Hi, we're the team behind</div>
-    <br>
-    <div style="font-size: 40px">The Pydra Project,</div>
-    <br>
-    <div style="font-size: 24px">providing compute power to the next generation.</div>
+    <div style="font-size:64px">Hi, we're<br>The Pydra Project.</div>
+    <div style="font-size: 12px; padding:5px;" class="animate__animated  animate__slideInUp">We strive to provide compute power to the next generation.</div>
 </div>
-
-<div class="section1" id="about">
-    <div style="font-size:64px">About</div>
-    <br>
-    <div style="font-size: 24px">
-        The Pydra Project consists of a team of teenagers trying to change the IT industry by providing compute power to students and other individuals around the world.
-    </div>
+<hr>
+<div class="about" id="about">
+    <div style="font-size:64px">What is The Pydra Project?</div>
+    <div style="font-size: 24px; padding: 5px">The Pydra Project is a small organization comprised of 3 teenagers who are trying to change<br>the IT landscape by providing free compute power to students and non-profits with "microservers".</div>
 </div>
-
-<div class="section2" id="projects">
-    <div style="font-size:64px;">Our Vision</div>
-    <br>
-    <div style="font-size: 24px">
-        We aim to provide compute power in the form of low-powered microservers such as Raspberry Pi's to assist students and other nonprofits with hosting their projects freely.
-    </div>
+<hr>
+<div class="projects" id="projects">
+    <div style="font-size:64px; text-align: center;">What's a microserver? </div>
+    <div style="font-size: 24px"> A microserver is a small, low powered computer that can be remotely accessed used for learning or aiding in shared goals.</div>
 </div>
-
-<div class="footer" id="contact">
+<hr>
+<div class="contact" id="contact">
     <div style="font-size:64px; margin: 5px;">Contact</div>
     <br>
-    <div style="font-size: 18px; margin: 5px;">Please contact us at <a href="mailto:support@pydra.dev">support@pydra.dev</a> regarding any concerns about the service.</div>
-    <br>
-    <footer>
-        <p>© The Pydra Project, <script>document.write(new Date().getFullYear());</script></p>
-        <p>The Pydra Project is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).</p>
-    </footer>
+    <div style="font-size: 24px; margin: 5px;">Have any questions or concerns?<br>Feel free to reach out to the team at <a href="mailto:support@pydra.dev">support@pydra.dev</a></div>
 </div>
+<div class="footer">
+    <hr>
+        <div class="footerText">© The Pydra Project, <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script><br>The Pydra Project is fiscally sponsored by <a href="https://the.hackfoundation.org/">The Hack Foundation</a> (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).</div>
+    </div>
+<!-- JQuery Scripts -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
-<script>
+<script type="text/javascript">
     $(window).on('load', function() {
         $("#loader-wrapper").fadeOut(700);
     });
-
+</script>
+<!-- Scroll to top button -->
+<script>
+    // Get the button
     let mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {
-        scrollFunction();
+        scrollFunction()
     };
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
+            mybutton.style.display = "flex";
         }
     }
-
+    // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
-
-    window.onload = function() {
-        setTimeout(function() {
-            const fadein = document.getElementById("fadein");
-            if (fadein) fadein.remove();
-        }, 1000);
-    };
+</script>
+<script>
+    import Splide from '@splidejs/splide';
+    new Splide('.splide').mount();
+</script>
+<script>
+    new Splide('.splide').mount();
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var splide = new Splide('.splide');
+        splide.mount();
+    });
 </script>
 </body>
 </html>
