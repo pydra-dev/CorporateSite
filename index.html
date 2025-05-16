@@ -66,6 +66,27 @@
     <div style="font-size: 24px"> A microserver is a small, power efficient computer that can be remotely accessed to be used for learning or aiding in shared goals.</div>
 </div>
 <hr>
+<div class="hero-image">
+    <div style="font-size:64px">Huge thanks to our sponsors for helping us!</div>
+  <section id="image-carousel" class="splide" aria-label="Images">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img src="/img/companies/cb.webp" width="50%" alt="crunchbits logo">
+          <div>
+            Description 01
+          </div>
+        </li>
+       <!-- <li class="splide__slide">
+         <img src="/images/nature/IMG_20250102_070338357.jpg" width="50%" alt="nature picture 2">
+          <div>
+            Description 02
+          </div>
+        </li>    -->
+      </ul>
+    </div>
+  </div>
+</div>
 <div class="contact" id="contact">
     <div style="font-size:64px; margin: 5px;">Contact</div>
     <br>
@@ -75,16 +96,18 @@
     <hr>
         <div class="footerText">© The Pydra Project, <script type="text/javascript">
             document.write(new Date().getFullYear());
-        </script><br>The Pydra Project is fiscally sponsored by <a href="https://the.hackfoundation.org/">The Hack Foundation</a> (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).</div>
+        </script><br><a href="https://hcb.hackclub.com/pydra" target="_blank">The Pydra Project </a>is fiscally sponsored by <a href="https://the.hackfoundation.org/">The Hack Foundation</a> (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).</div>
     </div>
 <!-- JQuery Scripts -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script type="text/javascript">
     $(window).on('load', function() {
         $("#loader-wrapper").fadeOut(700);
     });
 </script>
 <!-- Scroll to top button -->
+ <script> new Splide( '.splide' ).mount(); </script>
 <script>
     // Get the button
     let mybutton = document.getElementById("myBtn");
